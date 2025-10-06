@@ -1,0 +1,11 @@
+sounddevice
+numpy
+soundfile
+scipy
+websockets
+google-auth
+google-auth-oauthlib
+selenium
+pyaudio
+ffmpeg-python
+google-generativeai
