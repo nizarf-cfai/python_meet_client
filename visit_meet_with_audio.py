@@ -17,9 +17,12 @@ import time
 from pathlib import Path
 from DrissionPage import ChromiumPage, ChromiumOptions
 import pyautogui
+from PIL import Image, ImageDraw
 
+CANVAS_PAGE = "http://localhost:3000"
 # Google Meet link
 MEET_LINK = "https://meet.google.com/xdt-graq-fcm"
+# MEET_LINK = "https://meet.google.com/qhk-nasw-jhx"
  
 # Use the same profile directory as the profile manager
 PROFILE_DIR = Path(__file__).parent / "chrome_profile"
@@ -43,7 +46,7 @@ def open_new_tab_and_visit(page, url):
         
         # Use JavaScript to open a new tab with the URL
         # page.run_js(f"window.open('{url}', '_blank');")
-        page.new_tab(url=url)
+        page.new_tab(url=url, background=True)
         print(f"✓ New tab opened and navigated to: {url}")
         
         # Wait a moment for the page to load
@@ -59,6 +62,53 @@ def open_new_tab_and_visit(page, url):
         print(f"❌ Error opening new tab and visiting {url}: {e}")
         return False
 
+def check_coordinate(x, y, save_path="coordinate_check.png"):
+    """
+    Take a screenshot and mark the specified coordinate with a red dot
+    
+    Args:
+        x (int): X coordinate
+        y (int): Y coordinate  
+        save_path (str): Path to save the screenshot with red dot
+    
+    Returns:
+        str: Path to the saved image
+    """
+    print(f"🎯 Checking coordinate ({x}, {y})...")
+    
+    try:
+        # Take a screenshot
+        screenshot = pyautogui.screenshot()
+        
+        # screenshot is already a PIL Image, no need to convert
+        img = screenshot
+        draw = ImageDraw.Draw(img)
+        
+        # Draw a red dot at the coordinate
+        dot_radius = 10
+        draw.ellipse([
+            x - dot_radius, y - dot_radius, 
+            x + dot_radius, y + dot_radius
+        ], fill='red', outline='darkred', width=3)
+        
+        # Draw crosshairs for better visibility
+        crosshair_size = 20
+        draw.line([x - crosshair_size, y, x + crosshair_size, y], fill='red', width=2)
+        draw.line([x, y - crosshair_size, x, y + crosshair_size], fill='red', width=2)
+        
+        # Add text label
+        draw.text((x + 15, y - 25), f"({x}, {y})", fill='red')
+        
+        # Save the image
+        img.save(save_path)
+        print(f"✓ Screenshot saved with red dot at ({x}, {y}): {save_path}")
+        
+        return save_path
+        
+    except Exception as e:
+        print(f"❌ Error taking screenshot: {e}")
+        return None
+
 def handle_chrome_dialog():
     """
     Handle Chrome screen sharing dialog using screen automation
@@ -71,68 +121,17 @@ def handle_chrome_dialog():
     try:
         # Look for "Chrome Tab" option and click it
         print("Looking for 'Chrome Tab' option...")
-        chrome_tab_location = pyautogui.locateOnScreen('chrome_tab.png', confidence=0.8)
-        if chrome_tab_location:
-            pyautogui.click(chrome_tab_location)
-            print("✓ Clicked 'Chrome Tab' option")
-        else:
-            print("○ Could not find 'Chrome Tab' option, trying text search...")
-            # Alternative: search for text
-            pyautogui.click(400, 300)  # Approximate location of Chrome Tab option
-            print("✓ Clicked approximate Chrome Tab location")
+        pyautogui.click(730, 230)
         
         time.sleep(1)
+        pyautogui.click(1130, 630)
         
-        # Look for the localhost tab in the list
-        print("Looking for localhost tab...")
-        # Try to find the tab with "Canvas Board" or "localhost" text
-        # This might need adjustment based on your screen resolution
-        tab_location = pyautogui.locateOnScreen('localhost_tab.png', confidence=0.7)
-        if tab_location:
-            pyautogui.click(tab_location)
-            print("✓ Clicked localhost tab")
-        else:
-            print("○ Could not find localhost tab, trying coordinate click...")
-            # Fallback: click in the area where tabs are listed
-            pyautogui.click(400, 400)  # Adjust coordinates as needed
-            print("✓ Clicked approximate tab location")
         
-        time.sleep(1)
-        
-        # Look for "Also share tab audio" checkbox and enable it
-        print("Enabling 'Also share tab audio'...")
-        audio_checkbox = pyautogui.locateOnScreen('audio_checkbox.png', confidence=0.8)
-        if audio_checkbox:
-            pyautogui.click(audio_checkbox)
-            print("✓ Enabled tab audio sharing")
-        else:
-            print("○ Could not find audio checkbox, trying coordinate click...")
-            pyautogui.click(400, 500)  # Adjust coordinates as needed
-            print("✓ Clicked approximate audio checkbox location")
-        
-        time.sleep(1)
-        
-        # Click the "Share" button
-        print("Clicking 'Share' button...")
-        share_button = pyautogui.locateOnScreen('share_button.png', confidence=0.8)
-        if share_button:
-            pyautogui.click(share_button)
-            print("✓ Clicked Share button")
-        else:
-            print("○ Could not find Share button, trying coordinate click...")
-            pyautogui.click(500, 600)  # Adjust coordinates as needed
-            print("✓ Clicked approximate Share button location")
-        
-        print("✓ Chrome dialog automation completed!")
         return True
         
     except Exception as e:
         print(f"❌ Error automating Chrome dialog: {e}")
-        print("📋 Manual steps required:")
-        print("1. Select 'Chrome Tab' in the dialog")
-        print("2. Choose the localhost:3001 tab")
-        print("3. Enable 'Also share tab audio'")
-        print("4. Click 'Share'")
+
         return False
 
 def meet_ops(page):
@@ -177,6 +176,8 @@ def meet_ops(page):
             print("○ Button with data-promo-anchor-id='hNGZQc' not found")
     except Exception as e:
         print(f"○ Could not find button: {e}")
+
+    time.sleep(1)
     
 
 
@@ -269,9 +270,24 @@ def main():
         #data-promo-anchor-id="hNGZQc"
 
 
-        open_new_tab_and_visit(page, "http://localhost:3001")
-        time.sleep(3)
+        open_new_tab_and_visit(page, CANVAS_PAGE)
+        time.sleep(1)
+        
+        # Test coordinate checking function
+        print("\n🎯 Testing coordinate checking...")
+        print("You can now test coordinates by calling: check_coordinate(x, y)")
+        print("Example: check_coordinate(400, 300)")
         meet_ops(page)
+        
+        # Uncomment the line below to test a specific coordinate
+        # check_coordinate(1130, 630, "test_coordinate.png")
+        
+        # Example: Test multiple coordinates for Chrome dialog
+        # check_coordinate(400, 300, "chrome_tab_option.png")  # Chrome Tab option
+        # check_coordinate(400, 400, "tab_selection.png")      # Tab selection area
+        # check_coordinate(400, 500, "audio_checkbox.png")    # Audio checkbox
+        # check_coordinate(500, 600, "share_button.png")      # Share button
+        
 
         
         # Keep the browser open
