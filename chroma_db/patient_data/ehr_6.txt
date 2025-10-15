@@ -1,0 +1,104 @@
+Encounter 6
+Patient Scenario
+Encounter Details
+Visit Type: ED
+Date & Time: 2025-06-21 02:00 PM
+Clinician: Dr. Sarah Chen
+Specialty: Emergency Medicine
+Chief Complaint: Severe fatigue, jaundice, epigastric pain, confusion.
+History of Present Illness (HPI) Mr. Mc. Allister, a 63-year-old male, presented to ED accompanied by his wife due to sudden onset of severe fatigue, jaundice and epigastric pain over the past 24 hours. His wife reports he started feeling more fatigued and noticed mild mouth ulcers and nausea 4-6 days ago, which they initially attributed to the ongoing infection. He started Trimethoprim-Sulfamethoxazole (TMP-SMX) 6 days ago for sinusitis, prescribed by his GP. He has been compliant with all medications. No fever, chills, cough, or urinary symptoms. Denies recent falls or head trauma. No history of similar episodes. Wife denies any new medications or changes to diet.
+Past Medical History (PMH)
+Liver-related: None known prior to this acute event.
+Cirrhosis complications: None.
+Comorbidities:
+Rheumatoid Arthritis (diagnosed 10 years ago, controlled)
+Hypertension (diagnosed 7 years ago, controlled)
+Chronic Low Back Pain
+Mild Chronic Kidney Disease (eGFR ~55 mL/min/1.73m², stable for 4 years)
+Surgical History: Appendectomy (childhood)
+Medication History
+Methotrexate 20mg once weekly (Monday)
+Folic Acid 5mg once weekly (Tuesday)
+Lisinopril 10mg daily
+Trimethoprim-Sulfamethoxazole 800/160mg BID (started 6 days ago)
+Occasional paracetamol
+Allergies: Penicillin (rash)
+Review of Systems (ROS)
+Cardio: No chest pain, palpitations.
+Respi: No shortness of breath, cough.
+GI: Nausea, mild mouth ulcers, severe epigastric pain (non-radiating), jaundice. Denies vomiting, diarrhea, constipation, melena, or hematochezia.
+Neuro:  Alert and oriented to person, place, and time
+MSK: Chronic low back pain, RA symptoms stable.
+Derm: Jaundice noted by wife, no new rashes or skin changes apart from jaundice.
+GU: No dysuria, frequency, hematuria. Urine darker in color.
+Physical Examination
+General: Jaundiced, appears fatigued and drowsy. Disoriented to time and place.
+Abdomen: Soft, non-distended. Mild epigastric tenderness to palpation. No hepatomegaly, splenomegaly, or ascites noted clinically. Bowel sounds present.
+Peripheral: No pedal edema. No significant bruising or palmar erythema.
+CNS: Arousable but sluggish. Pupils equal and reactive. Follows commands slowly. Asterixis present. GCS 13 (E4V3M6).
+Skin: Generalized icterus. Mild oral mucosal ulcerations noted.
+Diagnostic and Reasoning
+Clinical Impression / Working Diagnosis Acute liver injury likely secondary to drug-induced liver injury (DILI) and/or severe methotrexate toxicity.
+Differential Diagnosis (if unclear case)
+Severe Methotrexate Toxicity (leading to pancytopenia, liver injury, renal injury)
+Trimethoprim-Sulfamethoxazole induced DILI
+Acute Viral Hepatitis (less likely given history, but cannot be entirely ruled out without serologies)
+Acute Liver Decompensation from unrecognized chronic liver disease
+Sepsis with multiorgan dysfunction
+Plan of Management
+Investigations:
+Labs: CBC, CMP (full electrolytes, LFTs, renal function), INR/PTT, Ammonia, Methotrexate level (urgent), Hepatitis serologies (HAV, HBV, HCV), Autoimmune panel (ANA, ASMA, LKM), Ceruloplasmin, Alpha-1 antitrypsin, G6PD. Blood cultures.
+Imaging: Urgent Abdominal Ultrasound (liver, biliary system).
+Laboratory & Imaging Results 
+  Orders Placed
+Labs: CBC, CMP, INR/PTT, Ammonia, Methotrexate level (urgent), Hepatitis serologies (HAV IgM, HBsAg, anti-HBc IgM, anti-HCV), Autoimmune panel (ANA, ASMA, LKM), Ceruloplasmin, Alpha-1 antitrypsin, G6PD, Blood Cultures x2.
+Imaging: Abdominal Ultrasound (STAT).
+Diagnosis and Recommended Options
+Diagnosis and Management plan
+Diagnosis: N/A (Waiting for Labs)
+Medications:
+Start IV fluids for hydration..
+Initiate N-acetylcysteine (NAC) protocol empirically given concern for acute liver failure.
+Coding and Billing
+ICD-10: K71.1 (Toxic liver disease with hepatic necrosis), T45.1X5A (Adverse effect of antineoplastic and immunosuppressive drugs, initial encounter - for methotrexate), T36.0X5A (Adverse effect of sulfonamides, initial encounter - for TMP-SMX).
+CPT codes: 99285 (ED visit, high complexity).
+Follow-up Instructions
+Patient admitted to ICU/HDU.
+Frequent neurological and vital sign monitoring.
+Strict input/output.
+Immediate notification of critical lab results.
+No oral intake until clinical status stable.
+
+
+Laboratory Information System
+Oracle Health EHR - Laboratory Information System
+Patient: Mc. Allister, John | DOB: 1962-01-20 | MRN: 987654321
+Encounter: ED Visit | Date & Time: 2025-06-21 02:30 PM
+Result Status: Final
+Collection Date/Time: 2025-06-21 02:15 PM
+
+| Test Name                  | Result | Unit              | Reference Range | Flag |
+|-----------------------------|--------|-------------------|-----------------|------|
+| **Complete Blood Count**    |        |                   |                 |      |
+| WBC                         | 5      | x10^9/L           | 4.0 - 10.0      |      |
+| Hemoglobin                  | 14.5   | g/dL              | 13.5 - 17.5     |      |
+| Platelets                   | 185    | x10^9/L           | 150 - 450       |      |
+| Neutrophils                 | 2.2    | x10^9/L           | 2.0 - 7.5       |      |
+| **Comprehensive Metabolic Panel** | |                   |                 |      |
+| Sodium                      | 138    | mmol/L            | 135 - 145       |      |
+| Potassium                   | 5.1    | mmol/L            | 3.5 - 5.0       | H    |
+| Creatinine                  | 1.5    | mg/dL             | 0.7 - 1.3       | H    |
+| BUN                         | 19     | mg/dL             | 7 - 20          |      |
+| eGFR                        | 58     | mL/min/1.73m²     | >60             | L    |
+| Total Bilirubin             | 12.5   | mg/dL             | 0.2 - 1.2       | H    |
+| Direct Bilirubin            | 8.9    | mg/dL             | <0.3            | H    |
+| ALT (SGPT)                  | 1850   | U/L               | 7 - 56          | H    |
+| AST (SGOT)                  | 2100   | U/L               | 10 - 40         | H    |
+| Alkaline Phosphatase        | 350    | U/L               | 40 - 150        | H    |
+| Albumin                     | 3.8    | g/dL              | 3.5 - 5.5       |      |
+| **Coagulation Panel**       |        |                   |                 |      |
+| PT                          | 11     | seconds           | 10.0 - 13.0     |      |
+| INR                         | 1.0    |                   | 0.8 - 1.2       |      |
+| PTT                         | 28     | seconds           | 25.0 - 35.0     |      |
+| **Other**                   |        |                   |                 |      |
+| Ammonia                     | 18     | µmol/L            | 11 - 32         |      |

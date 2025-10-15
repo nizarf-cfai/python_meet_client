@@ -1,0 +1,113 @@
+Encounter 1
+Patient scenario
+Encounter Details
+Visit Type: Outpatient
+Date & Time: 2015-08-10 11:00 AM
+Clinician: Dr. Elizabeth Hayes
+Specialty: Rheumatology (Initial Consult)
+Chief Complaint: Bilateral joint pain and swelling.
+History of Present Illness (HPI) Mr. John Mc. Allister, a 53-year-old retired carpenter, presents with a 6-month history of progressive, symmetrical joint pain and swelling, primarily affecting the small joints of his hands (MCPs, PIPs) and feet (MTPs). He reports significant morning stiffness lasting over an hour daily, and considerable fatigue impacting his daily activities. He has tried over-the-counter NSAIDs with limited relief. Symptoms are worse in the mornings and improve slightly with movement. No fever, rash, or other systemic symptoms noted. Denies any recent infections.
+Past Medical History (PMH)
+Liver-related: None.
+Cirrhosis complications: None.
+Comorbidities: None known.
+Surgical History: Appendectomy (childhood).
+Medication History
+Occasional Ibuprofen 200mg PRN for joint pain.
+No other regular medications.
+Allergies: NKDA (No Known Drug Allergies).
+Family History
+Father: Hypertension, Type 2 Diabetes.
+Mother: Osteoarthritis.
+No known family history of autoimmune diseases or liver disease.
+Social History
+Alcohol: 1-2 beers/day (approx. 7-14 units/week), reports consistent intake for many years. Denies binge drinking.
+Smoking: Current smoker, approximately 1 pack/day. Started smoking at age 18 (thus, 35 pack-years at this point).
+IVDU: Denies.
+Occupation: Retired carpenter since 2013. Prior occupational exposures to wood dust, solvents.
+Travel: No recent travel to endemic areas for infectious diseases.
+Sexual history: Married, monogamous.
+Review of Systems (ROS)
+Cardio: No chest pain, palpitations.
+Respi: No cough, shortness of breath. Occasional morning smoker's cough.
+GI: No nausea, vomiting, diarrhea, constipation. Appetite good.
+Neuro: No headaches, dizziness, focal deficits.
+MSK: As per HPI. Pain 7/10 at worst. Morning stiffness > 60 minutes.
+Derm: No rashes, skin changes.
+GU: No dysuria, frequency.
+Physical Examination
+General: Appears fatigued, but comfortable at rest. NAD.
+Abdomen: Soft, non-tender, non-distended. No organomegaly.
+Peripheral: No pedal edema, no clubbing.
+CNS: Alert and oriented x3.
+Skin: No rashes, no jaundice, no spider nevi.
+MSK: Bilateral swelling and tenderness of MCPs (2nd, 3rd), PIPs (2nd, 3rd), and MTPs (2nd, 3rd). Synovitis palpable. Reduced grip strength bilaterally. ROM limited due to pain in affected joints.
+Diagnostic and Reasoning
+Clinical Impression / Working Diagnosis Seropositive Rheumatoid Arthritis (RA), active disease. 
+Differential Diagnosis (if unclear case)
+Psoriatic Arthritis
+Systemic Lupus Erythematosus (SLE)
+Crystal Arthropathy (Gout, Pseudogout)
+Plan of Management
+Investigations: Seropositive RA
+Labs: Confirm serologies (RF, anti-CCP if not already done). Baseline CBC, LFTs (ALT, AST, Alk Phos, Bilirubin), Renal Function (Creatinine, eGFR), ESR, CRP. Hepatitis B (HBsAg, Anti-HBc total) and Hepatitis C (Anti-HCV) serologies.
+Laboratory & Imaging Results (Structured Tabs) 
+  Orders Placed
+Labs: RF, Anti-CCP, ESR, CRP, CBC with differential, LFTs (ALT, AST, Alk Phos, Total Bilirubin, Direct Bilirubin), Creatinine, eGFR, HBsAg, Anti-HBc Total, Anti-HCV.
+   Imaging: N/A   
+Diagnosis and Recommended action
+Diagnosis and management plans
+Diagnosis: Seropositive RA
+Medications:
+Initiate Methotrexate (MTX) 10mg orally once weekly.
+Prescribe Folic Acid 5mg orally once weekly (24 hours after MTX).
+Procedures: N/A.
+Multidisciplinary input: Education by Rheumatology nurse on RA and MTX.
+Education given to patient/family:
+Detailed explanation of RA, its chronic nature, and the goals of treatment.
+Thorough counseling on Methotrexate: common side effects (nausea, fatigue, mouth sores), rare but serious side effects (liver toxicity, bone marrow suppression, lung toxicity).
+Crucial: Emphasize the importance of Folic Acid to mitigate side effects.
+Crucial: Strong recommendation to avoid alcohol while on Methotrexate due to increased risk of liver toxicity.
+Importance of regular blood tests for monitoring.
+Smoking cessation counseling.
+Counseling: Reinforce smoking cessation.
+
+Coding and Billing
+ICD-10: M05.9 (Seropositive rheumatoid arthritis, unspecified).
+CPT codes: 99204 (New patient office visit, moderate complexity).
+Follow-up Instructions
+Return to Rheumatology clinic in 3 months for first follow-up.
+Return to GP for interim monitoring blood tests every 4 weeks for the first 3 months, then as advised.
+Report any new or worsening symptoms, especially fever, severe fatigue, rash, jaundice, or shortness of breath, immediately to GP or ED.
+
+
+Laboratory Information System
+Patient: Mc. Allister, John | DOB: 1962-01-20 | MRN: 987654321
+Encounter: Outpatient Rheumatology | Date & Time: 2015-08-10 11:30 AM
+Result Status: Final
+Collection Date/Time: 2015-08-10 10:45 AM
+
+| Test Name                  | Result     | Unit              | Reference Range        | Flag |
+|-----------------------------|-------------|-------------------|------------------------|------|
+| **Inflammatory Markers**    |             |                   |                        |      |
+| ESR                         | 45          | mm/hr             | 0 - 20                 | H    |
+| CRP                         | 25          | mg/L              | <5                     | H    |
+| **Rheumatology Serology**   |             |                   |                        |      |
+| RF (Rheumatoid Factor)      | 120         | IU/mL             | <14                    | H    |
+| Anti-CCP                    | >200        | U/mL              | <20                    | H    |
+| **Complete Blood Count**    |             |                   |                        |      |
+| WBC                         | 7.5         | x10^9/L           | 4.0 - 10.0             |      |
+| Hemoglobin                  | 14.2        | g/dL              | 13.5 - 17.5            |      |
+| Platelets                   | 280         | x10^9/L           | 150 - 450              |      |
+| **Comprehensive Metabolic Panel** |       |                   |                        |      |
+| Creatinine                  | 0.9         | mg/dL             | 0.7 - 1.3              |      |
+| eGFR                        | 85          | mL/min/1.73m²     | >60                    |      |
+| Total Bilirubin             | 0.7         | mg/dL             | 0.2 - 1.2              |      |
+| ALT (SGPT)                  | 25          | U/L               | 7 - 56                 |      |
+| AST (SGOT)                  | 22          | U/L               | 10 - 40                |      |
+| Alkaline Phosphatase        | 90          | U/L               | 40 - 150               |      |
+| **Hepatitis Serology**      |             |                   |                        |      |
+| HBsAg                       | Negative    |                   | Negative               |      |
+| Anti-HBc Total              | Negative    |                   | Negative               |      |
+| Anti-HCV                    | Negative    |                   | Negative               |      |
+

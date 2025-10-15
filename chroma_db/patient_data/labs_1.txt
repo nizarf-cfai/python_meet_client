@@ -1,0 +1,29 @@
+Lab Report
+Date of Lab: 2024-03-10
+Lab Test: CBC (Complete Blood Count)
+Result: Hemoglobin: 14.2 g/dL, WBC: 6.1 ×10⁹/L, Platelets: 250 ×10⁹/L
+Units: g/dL (hemoglobin), ×10⁹/L (WBC, platelets)
+Reference Range:
+Hemoglobin: 13.5–17.5 g/dL (male) / 12.0–15.5 g/dL (female)
+WBC: 4.0–11.0 ×10⁹/L
+Platelets: 150–450 ×10⁹/L
+Associated test_id: LABS-MC-001001-20240310-XELMON (overall panel ID)
+Lab Test: LFTs (Liver Function Tests)
+Result: ALT: 22 U/L, AST: 18 U/L, ALP: 85 U/L, Total Bilirubin: 0.8 mg/dL
+Units: U/L (ALT, AST, ALP), mg/dL (Bilirubin)
+Reference Range:
+ALT: 7–56 U/L
+AST: 10–40 U/L
+ALP: 44–147 U/L
+Total Bilirubin: 0.1–1.2 mg/dL
+Associated test_id: LABS-MC-001001-20240310-XELMON (overall panel ID)
+Lab Test: Lipids (Lipid Panel)
+Result: Total Cholesterol: 180 mg/dL, LDL: 95 mg/dL, HDL: 55 mg/dL, Triglycerides: 120 mg/dL
+Units: mg/dL
+Reference Range:
+Total Cholesterol: <200 mg/dL
+LDL: <100 mg/dL
+HDL: >40 mg/dL (male), >50 mg/dL (female)
+Triglycerides: <150 mg/dL
+Associated test_id: LABS-MC-001001-20240310-XELMON (overall panel ID)
+

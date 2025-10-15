@@ -1,0 +1,32 @@
+Source: BigHand
+Document ID: BH-MC-001001-20250410-CLINLET
+Patient: Jane Doe
+MRN: MC-001001
+Clinic: Rheumatology Outpatient Clinic
+Author: Dr. A. Smith, Consultant Rheumatologist
+Created: 2025-04-10 14:30
+Status: Approved
+
+**To / CC:**
+To: Dr. P. Jones, General Practitioner
+CC: Jane Doe
+
+**Summary:**
+This letter summarizes Ms. Doe's review in Rheumatology clinic on 2025-04-10. Her rheumatoid arthritis remains stable on Tofacitinib. Recent dermatology biopsy confirmed psoriasis, which will be managed with topical desoximetasone for now, with systemic options to be reviewed if needed in the future. Ms. Doe also continues to experience significant chronic fatigue, and a referral has been made for a comprehensive fatigue management program.
+
+**Examination:**
+General: Alert and oriented, no acute distress.
+Musculoskeletal: Symmetrical polyarthralgia noted, but no active synovitis in major joints. Swelling and tenderness score 0/28.
+Dermatological: Erythematous, scaly plaques consistent with psoriasis noted on extensor surfaces, particularly elbows and knees.
+
+**Plan:**
+* **Rheumatoid Arthritis:** Continue Tofacitinib 5mg BID. Patient tolerating well with good disease control.
+* **Psoriasis:** Continue topical desoximetasone as prescribed by Dermatology. We will monitor response and consider systemic agents if necessary, given her co-existent RA, to address both conditions simultaneously in the future.
+* **Chronic Fatigue:** Referred to the Multidisciplinary Fatigue Management Program for non-pharmacological interventions and support.
+* **Follow-up:** Review in Rheumatology clinic in 6 months, or sooner if any concerns. GP to monitor general health and facilitate referral to fatigue program.
+
+**Authentication:**
+Approved by Dr. A. Smith
+Consultant Rheumatologist
+2025-04-11 09:00
+

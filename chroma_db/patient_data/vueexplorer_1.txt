@@ -1,0 +1,27 @@
+Source: VueExplore PACS
+Document ID: VUE-MC-001001-20241020-XR-HANDSFET
+Patient: Sarah Chen
+MRN: MC-001001
+Accession: ACC-20241020-001
+Modality: XR (X-Ray)
+Study Date/Time: 2024-10-20 11:30
+Performing Provider: General Radiology Department
+
+**Technique:**
+Standard two-view X-rays of both hands (PA, Oblique) and both feet (AP, Oblique, Lateral) were performed.
+
+**Comparison:**
+Comparison made with prior X-ray studies of hands and feet dated 2023-04-15 (VUE-MC-001001-20230415-XR-HANDSFET).
+
+**Findings:**
+**Hands:** Joint spaces of the MCPs and PIPs are preserved. No acute erosions or significant periarticular osteopenia noted. No dislocations or subluxations. Soft tissues appear unremarkable. Stable appearance compared to prior.
+**Feet:** Tarsal and metatarsal phalangeal joint spaces maintained. No new erosive changes or significant alignment abnormalities identified. No acute fractures or dislocations. Soft tissues show mild, diffuse swelling, unchanged.
+
+**Impression:**
+1. No new erosions or significant degenerative changes in the hands or feet.
+2. Overall stable radiographic appearance of rheumatoid arthritis compared to the prior study from 2023-04-15.
+3. No acute bony or soft tissue abnormalities.
+
+**Viewer References:**
+Study available on VueExplore PACS via identifier MC-001001-XR-HANDSFET-20241020.
+

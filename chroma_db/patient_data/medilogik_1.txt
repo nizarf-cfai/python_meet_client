@@ -1,0 +1,29 @@
+Source: Medilogik
+Document ID: MEDILOGIK-MC-001001-20250125-SKINBX
+Patient: Patient, Clinic
+MRN: MC-001001
+Procedure: Skin Punch Biopsy - Left Elbow
+Indication: Evaluation of chronic psoriasiform dermatitis; confirm diagnosis of psoriasis.
+Endoscopist: Dr. E. Dermatologist
+Sedation/Anaesthesia: Local Anaesthetic (1% Lidocaine with Adrenaline)
+Start/End: 2025-01-25 10:15 / 2025-01-25 10:30
+
+**Findings:**
+Grossly, a 4mm skin punch biopsy specimen was obtained from the left elbow, corresponding to a well-demarcated erythematous plaque with silvery scales. Microscopically, histological examination reveals marked regular epidermal acanthosis with elongated rete ridges. There is parakeratosis with scattered neutrophils within the stratum corneum, consistent with Munro microabscesses. The granular layer is thinned. In the superficial dermis, dilated capillaries and a perivascular lymphohistiocytic infiltrate are noted. No evidence of atypia or malignancy.
+
+**Interventions:**
+Following informed consent, the lesion on the left elbow was prepped with chlorhexidine. Local anaesthesia (1% Lidocaine with Adrenaline) was infiltrated. A 4mm disposable punch biopsy tool was used to excise a specimen from the central aspect of the plaque. Haemostasis was achieved with direct pressure and topical aluminium chloride.
+
+**Biopsies/Samples:**
+One 4mm punch biopsy specimen was obtained from the left elbow lesion and sent for formal histopathological examination.
+
+**Complications:**
+None reported during the procedure. Patient tolerated the procedure well.
+
+**Impression & Recommendations:**
+Impression: The histological features are highly consistent with psoriasis. This finding correlates well with the clinical presentation of chronic, scaly, erythematous plaques.
+Recommendations: Discuss these findings with the patient to confirm the diagnosis of psoriasis. Based on the confirmed diagnosis, initiate appropriate systemic or topical therapy as clinically indicated. Follow-up with Dermatology clinic for ongoing management.
+
+**Attachments:**
+Digital photographs of the lesion before and after the biopsy, along with histological slide images, are available on the PACS system.
+

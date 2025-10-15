@@ -1,0 +1,29 @@
+Source: Viper
+Document ID: VIPER-MC-001001-20260710-PAINCLIN
+Patient: Jane Doe
+MRN: MC-001001
+Snapshot Date/Time: 2026-07-10 10:30
+User/Role: Dr. A. Smith, Rheumatology Registrar
+Context: Outpatient Rheumatology Clinic
+
+**Cards Reviewed:**
+* Pathology Results (last review 2026-07-01)
+* External Referrals/Reports (Pain Management Clinic report, 2026-07-08)
+* Consultation Notes (Previous Rheumatology, GP Summary)
+
+**External Sources Consulted:**
+* Pain Management Clinic - Last sync: 2026-07-08
+* Primary Care (GP system) - Last sync: 2026-07-05
+
+**Key Information Extracted:**
+* Patient presents with persistent debilitating fatigue despite good Rheumatoid Arthritis disease control.
+* Recent Pain Management Clinic report reviewed, recommending improved sleep hygiene practices and Cognitive Behavioral Therapy (CBT) for fatigue management.
+* Prior TSH (2.1 mIU/L) and Vitamin D (35 ng/mL) levels within normal limits, ruling out common endocrine or vitamin deficiency causes for fatigue.
+* Discussion held regarding referral to GP for consideration of a sleep study to investigate other potential causes of fatigue.
+* Emphasis on consistent medication adherence and non-pharmacological approaches.
+
+**Provenance/Links:**
+* Pain Management Clinic report accessible via "External Documents" card.
+* Lab results (TSH, Vit D) available under "Pathology" card, dated prior visits.
+* Previous Rheumatology notes detailing RA management and ongoing fatigue concerns are in the "Consultation Notes" card.
+

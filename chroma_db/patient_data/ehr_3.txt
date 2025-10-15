@@ -1,0 +1,56 @@
+Encounter 3
+Patient Scenario
+Date & Time: 2018-09-05 10:00 AM
+Reason for Encounter: Routine review, elevated blood pressure readings.
+History (HPC + ROS): Patient presents for routine review. Noted to have elevated blood pressure readings on several occasions (145-155/90-95 mmHg). Denies symptoms of hypertension (headache, dizziness, chest pain). RA remains well-controlled on 10mg MTX, but Rheumatology has recommended increasing MTX dose to 20mg weekly due to mild flare-ups noted in last specialist review. Patient states he's quit smoking last year. Still consuming 1-2 beers/day.
+Review of Medications:
+Methotrexate 10mg/week
+Folic Acid 5mg/week
+Occasional paracetamol
+Alcohol and Smoking History (Structured Tabs):
+Alcohol Use: 1-2 beers/day (approx. 7-14 units/week). No change.
+Smoking: Ex-smoker, quit 2017. 20 pack-years total.
+Examination:
+General: Appears well.
+Vitals: BP 148/92 mmHg, HR 72 bpm, RR 16/min, Temp 36.8°C.
+CVS: Normal heart sounds. No murmurs.
+MSK: No active synovitis.
+Diagnosis and Recommended plans
+Diagnosis : New diagnosis of Essential Hypertension. Stable Rheumatoid Arthritis, increasing MTX dose.
+Plan:
+Initiate Lisinopril 10mg daily for hypertension.
+Increase Methotrexate to 20mg once weekly. Continue Folic Acid 5mg once weekly.
+Order baseline labs for Lisinopril and monitor MTX: CBC, LFTs, Renal Function.
+Educate on Lisinopril side effects (cough) and importance of regular BP monitoring.
+Continue to reinforce alcohol moderation, especially with increased MTX dose.
+Coded Diagnoses:
+SNOMED: 383410000 | Essential hypertension (disorder)
+SNOMED: 69896004 | Rheumatoid arthritis (disorder)
+Code linked to QOF: HYP (Hypertension), RA (Rheumatoid Arthritis)
+Tasks / Prescriptions:
+Rx: Lisinopril 10mg Tablets; Disp: 30 tablets; Sig: Take 1 tablet by mouth once daily.
+Rx: Methotrexate 2.5mg Tablets; Disp: 32 tablets; Sig: Take 8 tablets (20mg) by mouth once weekly.
+Lab Orders: CBC, LFTs, Creatinine, eGFR.
+Next Review: In 4 weeks to review Lisinopril and MTX tolerance.
+
+
+Laboratory Information System
+Patient: Mc. Allister, John | DOB: 1962-01-20 | MRN: 987654321
+Encounter: GP Visit | Date & Time: 2018-09-05 10:15 AM
+Result Status: Final
+Collection Date/Time: 2018-09-05 09:30 AM
+
+
+| Test Name                  | Result | Unit              | Reference Range | Flag |
+|-----------------------------|--------|-------------------|-----------------|------|
+| **Complete Blood Count**    |        |                   |                 |      |
+| WBC                         | 7.2    | x10^9/L           | 4.0 - 10.0      |      |
+| Hemoglobin                  | 14     | g/dL              | 13.5 - 17.5     |      |
+| Platelets                   | 270    | x10^9/L           | 150 - 450       |      |
+| **Comprehensive Metabolic Panel** | |                   |                 |      |
+| Creatinine                  | 1.1    | mg/dL             | 0.7 - 1.3       |      |
+| eGFR                        | 65     | mL/min/1.73m²     | >60             |      |
+| Total Bilirubin             | 0.9    | mg/dL             | 0.2 - 1.2       |      |
+| ALT (SGPT)                  | 35     | U/L               | 7 - 56          |      |
+| AST (SGOT)                  | 30     | U/L               | 10 - 40         |      |
+| Alkaline Phosphatase        | 110    | U/L               | 40 - 150        |      |

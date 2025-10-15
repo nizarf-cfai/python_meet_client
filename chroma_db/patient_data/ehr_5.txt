@@ -1,0 +1,32 @@
+Encounter 5
+
+Date & Time: 2025-06-15 10:30 AM
+Reason for Encounter: Sinusitis symptoms.
+History (HPC + ROS): Mr. Mc. Allister, now 63-year-old, presents with a 5-day history of nasal congestion, facial pain, headache, and green nasal discharge. Symptoms worse when bending forward. No fever reported. Denies shortness of breath, chest pain, or significant sore throat. Review of systems otherwise unremarkable for new complaints. Reports his rheumatoid arthritis is well-controlled. 
+GP Note: Patient notes he has a 'cold' that won't go away. Asked for antibiotics. Patient confirms compliance with all current medications.
+Review of Medications:
+Methotrexate 20mg/week (with 5mg folic acid on non-MTX day)
+Lisinopril 10mg daily
+Occasional paracetamol for back pain.
+No changes reported.
+Alcohol and Smoking History (Structured Tabs):
+Alcohol Use: 1-2 beers/day (approx. 7-14 units/week), denies recent increase.
+Smoking: Ex-smoker, 20 pack-years, quit 2017.
+Examination:
+General: NAD, appears comfortable.
+ENT: Mild tenderness to percussion over maxillary sinuses. Nasal mucosa appears congested, some mucopurulent discharge noted. Oropharynx clear.
+Vitals: BP 135/85 mmHg, HR 72 bpm, RR 16/min, Temp 37.0°C.
+Diagnosis and Recommended Plans
+Impression: Acute Bacterial Sinusitis. Stable RA, HTN, CKD.
+Plan:
+Prescribe Trimethoprim-Sulfamethoxazole (TMP-SMX) 800/160mg BID for 10 days.
+Advise symptomatic relief (steam inhalation, analgesia).
+Educate on potential side effects.
+Advise to seek medical attention if symptoms worsen or new symptoms develop.
+Coded Diagnoses:
+SNOMED: 22285007 | Acute sinusitis (disorder)
+Code linked to QOF: Not applicable for this acute presentation.
+Tasks / Prescriptions:
+Rx: Trimethoprim-Sulfamethoxazole 800/160mg Tablets; Disp: 20 tablets; Sig: Take 1 tablet by mouth twice daily for 10 days.
+Patient education leaflet on sinusitis and TMP-SMX.
+Next Review: Review as needed, or if symptoms persist beyond 10 days.

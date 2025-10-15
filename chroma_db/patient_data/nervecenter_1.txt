@@ -1,0 +1,19 @@
+Source: Nervecentre
+Document ID: NC-MC-001001-20260218-NEWS2-1030
+Patient: Jane Doe
+MRN: MC-001001
+DOB/Sex: 1965-05-20 / Female
+Encounter/Location: Emergency Department
+Observation Window: 2026-02-18 10:20–10:40
+Responsible Team: Emergency Medicine
+
+**Observation Sets:**
+
+* 10:30 — RR 16, SpO₂ 98%, Temp 37.0°C, HR 72, BP 120/78, AVPU A → **NEWS2 = 0**
+
+**Sepsis Screening & Actions:** Not indicated. Patient presented with mechanical fall; no signs or symptoms of infection or systemic inflammatory response.
+
+**Escalation/Tasking/Handover:** No escalation required given stable NEWS2 score. Patient assessed by ED doctor.
+
+**Summary:** Patient presented to ED after a fall, remained stable with a NEWS2 score of 0 throughout the initial assessment. No clinical concerns identified from vital signs.
+

@@ -1,0 +1,23 @@
+Source: ICE
+Document ID: ICE-MC-001001-20240310-LABORDER
+Patient: John Doe
+MRN: MC-001001
+Placer ID: DR.RHEUMATOLOGIST.123
+Ordering Clinician: Rheumatology Department
+Requested: 2024-03-10 10:30
+Status: Completed
+
+**Orders Placed:**
+* Full Blood Count (FBC)
+* Liver Function Tests (LFTs)
+* Lipid Profile (Total Cholesterol, HDL, LDL, Triglycerides)
+
+**Specimen/Acquisition:**
+* Specimen Type: Venous Blood
+* Collection Time: 2024-03-10 11:00
+
+**Results Summary:**
+All ordered laboratory tests (FBC, LFTs, Lipids) were reported as within normal limits, consistent with prior LABS-MC-001001-20240310-XELMON.
+
+**Notes:**
+Orders placed for routine monitoring of Tofacitinib (Xeljanz) therapy as per departmental protocol. Results made available via OpenNet and integrated into EHR. No add-on requests or cancellations.
